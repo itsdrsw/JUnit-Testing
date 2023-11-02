@@ -16,7 +16,7 @@ class ExampleUnitTest { //deklarasi sebuah kelas Kotlin bernama 'ExampleUnitTest
         //assertEquals adalah metode yang membandingkan dua nilai
         assertEquals(10, 8 + 2)
         /**
-        Jika hasil ekspresi sebelah kanan (2+2) sama dengan 4, maka
+        Jika hasil ekspresi sebelah kanan (8+2) sama dengan 4, maka
         pengujian akan berhasil; jika tidak, maka pengujian akan gagal.
         */
     }
