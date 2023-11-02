@@ -9,11 +9,11 @@ internal class SampleTest { //mendeklarasikan kelas dan keyword 'internal' berar
     @Test //anotasi method pengujian
     fun testSum(){ //method ini melakukan pengujian pada method sum dari kelas Sample.
         val expected = 90 //inisiasi variabel expected
-        Assert.assertEquals(expected, testSample.sum(80, 2))
+        Assert.assertEquals(expected, testSample.sum(80, 10))
         /**
         pernyataan pengujian aktual, method assertEquals dari kelas Assert digunakan untuk
         memeriksa apakah hasil yang diharapkan (expected) sama dengan hasil yang dikembalikan
-        oleh pemanggilan method testSample.sum(80, 2). Jika hasilnya sama, pengujian akan lulus.
+        oleh pemanggilan method testSample.sum(80, 10). Jika hasilnya sama, pengujian akan lulus.
         Jika tidak, pengujian akan gagal.
          */
     }
