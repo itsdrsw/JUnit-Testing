@@ -9,9 +9,15 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
-    @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+class ExampleUnitTest { //deklarasi sebuah kelas Kotlin bernama 'ExampleUnitTest'
+    @Test //anotasi JUnit yang menandakan metode pengujian (unit test).
+    fun addition_isCorrect() {  //method pengujian
+
+        //assertEquals adalah metode yang membandingkan dua nilai
+        assertEquals(10, 2 + 2)
+        /**
+        Jika hasil ekspresi sebelah kanan (2+2) sama dengan 4, maka
+        pengujian akan berhasil; jika tidak, maka pengujian akan gagal.
+        */
     }
 }
