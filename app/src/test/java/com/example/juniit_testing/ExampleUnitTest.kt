@@ -14,7 +14,7 @@ class ExampleUnitTest { //deklarasi sebuah kelas Kotlin bernama 'ExampleUnitTest
     fun addition_isCorrect() {  //method pengujian
 
         //assertEquals adalah metode yang membandingkan dua nilai
-        assertEquals(10, 2 + 2)
+        assertEquals(10, 8 + 2)
         /**
         Jika hasil ekspresi sebelah kanan (2+2) sama dengan 4, maka
         pengujian akan berhasil; jika tidak, maka pengujian akan gagal.
